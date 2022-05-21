@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+button{
+  background-color: #71fd9d;
+margin-left: 25px;
+border-radius: 70px;
+
+}
+
+input{
+
+  background: #e4f8c1;
+  margin-top: 50px;
+  margin-left: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
