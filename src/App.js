@@ -14,7 +14,7 @@ const App = () => {
 
   useEffect(() => {
     agregarput();
-    //agregar funcion nueva (eliminar)
+    
   }, [frases]);
 
 
@@ -90,7 +90,7 @@ async function getFrases () {
       });
 
   }
-
+console.log(frases)
 
   const agregarFrases = event => {
 
@@ -168,7 +168,9 @@ async function getFrases () {
   }
 
 
-const agregarput = () => {
+
+
+  const agregarput = () => {
   fetch('https://assets.breatheco.de/apis/fake/todos/user/usernameyoselin', {
       method: "PUT",
       body: JSON.stringify(
