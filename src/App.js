@@ -96,7 +96,7 @@ console.log(frases)
 
     setFrase(event.target.value);
     console.log(frases)
-    /* fetch('https://assets.breatheco.de/apis/fake/todos/user/usernameyoselin', {
+     fetch('https://assets.breatheco.de/apis/fake/todos/user/usernameyoselin', {
       method: "PUT",
       body: JSON.stringify(
         frases.map(item => {
@@ -129,7 +129,7 @@ console.log(frases)
       .catch(error => {
         //manejo de errores
         console.log(error);
-      }); */
+      }); 
 
 
 
